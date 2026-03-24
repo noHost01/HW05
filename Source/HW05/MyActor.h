@@ -25,5 +25,11 @@ public:
 
 	void Move(float Distance);
 	void Turn(float Angle);
+	void TriggerEvent();
+
+private:
+	int32 MoveCount;
+	int32 EventCount;
+	float TotalDistance;
 
 };
